@@ -1,8 +1,8 @@
 {{
     config(
         materialized='table',
-        alias = 'EMP1'
+        alias = 'EMP2'
 
     )
 }}
-select * from DEPT
+select * from EMP1
